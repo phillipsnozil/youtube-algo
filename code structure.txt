@@ -1,0 +1,17 @@
+1. Library Imports:
+Import libraries, tkinter, ttk (themed Tkinter), and yt_dlp for YouTube data retrieval.
+
+import tkinter as tk
+from tkinter import ttk, scrolledtext
+import yt_dlp
+
+2. YouTube Search Functions:
+Define functions related to YouTube search using yt_dlp. 
+including the youtube_search function for retrieving video data and the quicksort function for sorting the results.
+
+def youtube_search(query, max_results=10, order='date'):
+def quicksort(arr, key=lambda x: x):
+ 
+
+3. UI Setup:
+ Tkinter main window, setting a dark theme,UI elements such as labels, entry widgets, comboboxes, buttons, and text widgets.
