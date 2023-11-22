@@ -14,4 +14,10 @@ USEAGE INSTRUCTIONS
 
 2. run the code by going into terminal and running the prompt 'python youtubealgo.py'(or if editor has it press the start button)
 
-3.
+3. Enter your YouTube search query in the entry field.
+
+4. Choose the order preference (Date or Alphabetical) from the dropdown menu.
+
+5. Click the "Search" button.
+
+6. View the search results in the scrolled text widget.
