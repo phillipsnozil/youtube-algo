@@ -40,5 +40,7 @@ It was hard to collaborate together online, so we adopted a divide-and-conquer s
 
 It was hard for us to translate this code into something that could be shared with others as others do not have the library and files we do, so we spent a good amount of time adjusting and writing the installation and user manual to help users with it. 
 
+The UI was hard to implement with the various buttons we have in our code, however we figured it out eventually
+
 Limitations: 
-Since this code is mainly to search for any youtube videos, it would be impossible to find any videos that are either not on YouTube or hidden on the website.
+Since this code is mainly to search for any YouTube videos, it would be impossible to find any videos that are either not on YouTube or hidden on the website.
