@@ -71,7 +71,6 @@ style.configure('TLabel', foreground='#FFFFFF', background='#2E2E2E', font=('cal
 style.configure('TEntry', foreground='#000000', background='#FFFFFF', font=('calibri', 12))
 style.configure('TCombobox', foreground='#000000', background='#FFFFFF', font=('calibri', 12))
 
-
 label = ttk.Label(window, text="YouTube Video Search", style='TLabel')
 label.grid(row=0, column=0, columnspan=4, pady=10)
 
@@ -88,11 +87,9 @@ search_button.grid(row=1, column=4, padx=10, pady=10)
 result_text = scrolledtext.ScrolledText(window, width=80, height=15, wrap=tk.WORD, font=('calibri', 11))
 result_text.grid(row=2, column=0, columnspan=5, pady=10)
 
-# Separator
 separator = ttk.Separator(window, orient='horizontal')
 separator.grid(row=3, column=0, columnspan=5, sticky='ew', pady=10)
 
-# Footer
 footer_label = ttk.Label(window, text="© final project by ivan and phillip", font=('calibri', 8), style='TLabel')
 footer_label.grid(row=4, column=0, columnspan=5)
 
