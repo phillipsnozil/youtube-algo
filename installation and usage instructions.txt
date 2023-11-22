@@ -1,0 +1,17 @@
+INSTALLATION INSTRUCTIONS
+
+1. Install Python (can be installed on the official Python website)
+
+2.Save the project file and then open in coding editor
+
+3. Before running the code go to terminal and install the prompt ‘pip install yt-dlp’ or else it will end up with error
+
+
+
+USEAGE INSTRUCTIONS
+
+1. open project file
+
+2. run the code by going into terminal and running the prompt 'python youtubealgo.py'(or if editor has it press the start button)
+
+3.
