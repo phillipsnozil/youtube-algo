@@ -14,4 +14,19 @@ def quicksort(arr, key=lambda x: x):
  
 
 3. UI Setup:
- Tkinter main window, setting a dark theme,UI elements such as labels, entry widgets, comboboxes, buttons, and text widgets.
+Tkinter main window, setting a dark theme,UI elements such as labels, entry widgets, comboboxes, buttons, and text widgets.
+
+window = tk.Tk()
+window.title("YouTube Search")
+window.configure(bg='#2E2E2E')  # Set background color to dark gray
+style = ttk.Style()
+style.configure('TButton', foreground='#FFFFFF', background='#444444', font=('calibri', 10, 'bold'), borderwidth='4')
+style.configure('TLabel', foreground='#FFFFFF', background='#2E2E2E', font=('calibri', 12, 'bold'))
+style.configure('TEntry', foreground='#000000', background='#FFFFFF', font=('calibri', 12))
+style.configure('TCombobox', foreground='#000000', background='#FFFFFF', font=('calibri', 12))
+
+4. Main Loop:
+the Tkinter main loop runs the GUI application
+
+window.mainloop()
+
